@@ -11,4 +11,8 @@ Rails.application.routes.draw do
 
   get "testing/*options" => "number_games#test"
 
+
+  post "/number_game" => "number_games#guessing_numbers"
+
+
 end

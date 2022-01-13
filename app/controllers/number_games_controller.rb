@@ -28,5 +28,9 @@ class NumberGamesController < ApplicationController
     render json: {message: options, message2: additions}
   end
 
+  def test
+    render json: {message: "oi oi oi"}
+  end
+
 
 end
